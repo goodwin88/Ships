@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1580276116,
+	"version": 1580282217,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -33,7 +33,6 @@
 		"images/purplebeam-sheet0.png",
 		"images/purplebeam-sheet1.png",
 		"images/purplebeam-sheet2.png",
-		"images/particlesorangespeed.png",
 		"images/particlesorangebomb.png",
 		"images/beaconship-sheet0.png",
 		"images/particlesred.png",
