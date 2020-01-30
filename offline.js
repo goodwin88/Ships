@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1580312625,
+	"version": 1580367871,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -60,9 +60,10 @@
 		"images/greenbulletpath-sheet0.png",
 		"images/beaconredfistleft-sheet0.png",
 		"images/redfistright-sheet0.png",
-		"images/touchsteer-sheet0.png",
-		"images/touchturbo-sheet0.png",
-		"images/touchturboskin-sheet0.png",
+		"images/navsteer-sheet0.png",
+		"images/navfuelmax-sheet0.png",
+		"images/navfuelcurrent-sheet0.png",
+		"images/particlesasteroid.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
