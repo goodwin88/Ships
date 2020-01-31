@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1580441357,
+	"version": 1580456309,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -39,7 +39,7 @@
 		"images/particlespurple.png",
 		"images/greenscanturret-sheet0.png",
 		"images/greenray-sheet0.png",
-		"images/particlesgreen.png",
+		"images/particlesthrustersgreen.png",
 		"images/greenfieldsmall-sheet0.png",
 		"images/greenfieldlarge-sheet0.png",
 		"images/particles2.png",
@@ -68,6 +68,8 @@
 		"images/metergreen-sheet0.png",
 		"images/meterorange-sheet0.png",
 		"images/meterpurple-sheet0.png",
+		"images/particlesthrustersorange.png",
+		"images/particlesthrusterspurple.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
