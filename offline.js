@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1580456309,
+	"version": 1580597105,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -23,7 +23,6 @@
 		"images/camera-sheet0.png",
 		"images/ship-sheet0.png",
 		"images/ship-sheet1.png",
-		"images/star.png",
 		"images/redfistleft-sheet0.png",
 		"images/greenbeam1-sheet0.png",
 		"images/skingreenpowerup1-sheet0.png",
@@ -55,6 +54,7 @@
 		"images/greendroneleft-sheet0.png",
 		"images/greendroneright-sheet0.png",
 		"images/powerupcapsule-sheet0.png",
+		"images/powerupcapsule-sheet1.png",
 		"images/beaconmothership-sheet0.png",
 		"images/mothershipminingfield-sheet0.png",
 		"images/greenbulletpath-sheet0.png",
@@ -70,6 +70,9 @@
 		"images/meterpurple-sheet0.png",
 		"images/particlesthrustersorange.png",
 		"images/particlesthrusterspurple.png",
+		"images/spawner-sheet0.png",
+		"images/star-sheet0.png",
+		"images/beaconredbaddies-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
