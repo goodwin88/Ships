@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1580857850,
+	"version": 1580910274,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -23,7 +23,8 @@
 		"images/camera-sheet0.png",
 		"images/ship-sheet0.png",
 		"images/ship-sheet1.png",
-		"images/redfistleft-sheet0.png",
+		"images/redhand-sheet0.png",
+		"images/redhand-sheet1.png",
 		"images/greenbeam1-sheet0.png",
 		"images/skingreenpowerup1-sheet0.png",
 		"images/orangeshockwave-sheet0.png",
@@ -56,7 +57,6 @@
 		"images/beaconmothership-sheet0.png",
 		"images/mothershipminingfield-sheet0.png",
 		"images/greenbulletpath-sheet0.png",
-		"images/redfistright-sheet0.png",
 		"images/beacongreendrone-sheet0.png",
 		"images/navsteer-sheet0.png",
 		"images/navfuelmax-sheet0.png",
