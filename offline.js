@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1580955122,
+	"version": 1580977893,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -55,7 +55,7 @@
 		"images/powerupcapsule-sheet1.png",
 		"images/beaconmothership-sheet0.png",
 		"images/mothershipminingfield-sheet0.png",
-		"images/greenbulletpath-sheet0.png",
+		"images/pointerred-sheet0.png",
 		"images/beacongreendrone-sheet0.png",
 		"images/navsteer-sheet0.png",
 		"images/navfuelmax-sheet0.png",
