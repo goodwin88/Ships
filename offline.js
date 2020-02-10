@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1581300682,
+	"version": 1581356460,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -13,7 +13,7 @@
 		"images/bulletgreen-sheet0.png",
 		"images/particles.png",
 		"images/base-sheet0.png",
-		"images/redbullet-sheet0.png",
+		"images/bulletyellow-sheet0.png",
 		"images/powerup-sheet0.png",
 		"images/bgasteroid01-sheet0.png",
 		"images/bgasteroid01-sheet1.png",
@@ -87,6 +87,7 @@
 		"images/greenhudbosscurrent-sheet0.png",
 		"images/greenhudbossmax-sheet0.png",
 		"images/greenhudboss-sheet0.png",
+		"images/yellowbosspyramid-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
