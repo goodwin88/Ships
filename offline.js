@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1581356460,
+	"version": 1581383308,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -88,6 +88,10 @@
 		"images/greenhudbossmax-sheet0.png",
 		"images/greenhudboss-sheet0.png",
 		"images/yellowbosspyramid-sheet0.png",
+		"images/superorange-sheet0.png",
+		"images/superpurplechain1-sheet0.png",
+		"images/superpurplechain2-sheet0.png",
+		"images/superpurplechain3-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
