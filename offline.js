@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1582529050,
+	"version": 1582601932,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -93,6 +93,14 @@
 		"images/yellowbossrightdark-sheet0.png",
 		"images/yellowbossrightlight-sheet0.png",
 		"images/redbossturret-sheet0.png",
+		"images/redbossturret-sheet1.png",
+		"images/dialoguebox-sheet0.png",
+		"images/dialoguebox-sheet1.png",
+		"images/dialogueportraits-sheet0.png",
+		"images/dialogueportraits-sheet1.png",
+		"images/dialogueinvis-sheet0.png",
+		"images/dialoguepointer-sheet0.png",
+		"images/dialoguepointer-sheet1.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
