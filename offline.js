@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1582733895,
+	"version": 1582762696,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -96,6 +96,7 @@
 		"images/dialoguepointer-sheet0.png",
 		"images/dialoguepointer-sheet1.png",
 		"images/powerblock-sheet0.png",
+		"images/powerblock-sheet1.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
