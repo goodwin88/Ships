@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1582762696,
+	"version": 1583489951,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -91,7 +91,6 @@
 		"images/dialoguebox-sheet0.png",
 		"images/dialoguebox-sheet1.png",
 		"images/dialogueportraits-sheet0.png",
-		"images/dialogueportraits-sheet1.png",
 		"images/dialogueinvis-sheet0.png",
 		"images/dialoguepointer-sheet0.png",
 		"images/dialoguepointer-sheet1.png",
