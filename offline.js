@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1584564361,
+	"version": 1584647702,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -98,7 +98,7 @@
 		"images/powerblock-sheet0.png",
 		"images/powerblock-sheet1.png",
 		"images/uilogo-sheet0.png",
-		"images/uibutton-sheet0.png",
+		"images/buttonstart-sheet0.png",
 		"images/particlescoin.png",
 		"images/yellowbossoutline-sheet0.png",
 		"images/yellowbosseyelid-sheet0.png",
@@ -138,6 +138,12 @@
 		"images/incubatordatalegleft-sheet0.png",
 		"images/incubatordatalegleft-sheet1.png",
 		"images/incubatoranalysis-sheet0.png",
+		"images/incubatoranalysis-sheet1.png",
+		"images/incubatortab-sheet0.png",
+		"images/incubatortabcover-sheet0.png",
+		"images/buttongo-sheet0.png",
+		"images/incubatorzap-sheet0.png",
+		"images/particlesteal.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
