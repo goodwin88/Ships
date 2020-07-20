@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1595258660,
+	"version": 1595271184,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -146,7 +146,6 @@
 		"images/minibossdrone-sheet0.png",
 		"images/minibossmisc01-sheet0.png",
 		"images/miniboss-sheet0.png",
-		"images/miniboss-sheet1.png",
 		"images/minibossturret-sheet0.png",
 		"images/minibossface-sheet0.png",
 		"images/beaconminibossface-sheet0.png",
@@ -161,6 +160,7 @@
 		"images/shippurple03-sheet0.png",
 		"images/bgcosmo-sheet0.png",
 		"images/invisboss-sheet0.png",
+		"images/blankboss-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
