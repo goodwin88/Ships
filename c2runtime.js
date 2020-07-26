@@ -21809,11 +21809,58 @@ cr.behaviors.scrollto = function(runtime)
 	};
 	behaviorProto.acts = new Acts();
 }());
+;
+;
+cr.behaviors.solid = function(runtime)
+{
+	this.runtime = runtime;
+};
+(function ()
+{
+	var behaviorProto = cr.behaviors.solid.prototype;
+	behaviorProto.Type = function(behavior, objtype)
+	{
+		this.behavior = behavior;
+		this.objtype = objtype;
+		this.runtime = behavior.runtime;
+	};
+	var behtypeProto = behaviorProto.Type.prototype;
+	behtypeProto.onCreate = function()
+	{
+	};
+	behaviorProto.Instance = function(type, inst)
+	{
+		this.type = type;
+		this.behavior = type.behavior;
+		this.inst = inst;				// associated object instance to modify
+		this.runtime = type.runtime;
+	};
+	var behinstProto = behaviorProto.Instance.prototype;
+	behinstProto.onCreate = function()
+	{
+		this.inst.extra["solidEnabled"] = (this.properties[0] !== 0);
+	};
+	behinstProto.tick = function ()
+	{
+	};
+	function Cnds() {};
+	Cnds.prototype.IsEnabled = function ()
+	{
+		return this.inst.extra["solidEnabled"];
+	};
+	behaviorProto.cnds = new Cnds();
+	function Acts() {};
+	Acts.prototype.SetEnabled = function (e)
+	{
+		this.inst.extra["solidEnabled"] = !!e;
+	};
+	behaviorProto.acts = new Acts();
+}());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Particles,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Sprite,
+	cr.plugins_.Particles,
 	cr.plugins_.Text,
+	cr.plugins_.Sprite,
 	cr.plugins_.Touch,
 	cr.behaviors.Fade,
 	cr.behaviors.destroy,
@@ -21828,6 +21875,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.scrollto,
 	cr.behaviors.Rex_pin2imgpt,
 	cr.behaviors.custom,
+	cr.behaviors.solid,
 	cr.system_object.prototype.cnds.Compare,
 	cr.plugins_.Sprite.prototype.cnds.IsOverlapping,
 	cr.plugins_.Sprite.prototype.cnds.CompareWidth,
@@ -21995,9 +22043,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.SetSize,
 	cr.plugins_.Text.prototype.acts.MoveToTop,
 	cr.plugins_.Text.prototype.acts.SetOpacity,
+	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.system_object.prototype.acts.ResetGlobals,
-	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.system_object.prototype.cnds.PickByComparison,
 	cr.plugins_.Sprite.prototype.exps.PickedCount,
 	cr.behaviors.Turret.prototype.acts.SetRotateSpeed,
@@ -22012,6 +22060,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.SetFontColor,
 	cr.system_object.prototype.exps.rgb,
 	cr.plugins_.Touch.prototype.exps.Y,
+	cr.plugins_.Sprite.prototype.cnds.IsFlipped,
+	cr.system_object.prototype.acts.AddVar,
+	cr.system_object.prototype.cnds.PickRandom,
 	cr.plugins_.Sprite.prototype.cnds.IsBetweenAngles,
 	cr.behaviors.Sin.prototype.acts.SetMovement
 ];};
