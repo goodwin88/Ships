@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1595799338,
+	"version": 1595853877,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -180,6 +180,7 @@
 		"images/racer04-sheet0.png",
 		"images/illustrations-sheet0.png",
 		"images/illustrations-sheet1.png",
+		"images/debugskip-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
