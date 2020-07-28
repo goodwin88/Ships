@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1595876664,
+	"version": 1595894358,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -188,6 +188,7 @@
 		"images/debugillustration-sheet0.png",
 		"images/greenhuddebris-sheet0.png",
 		"images/greenhuddebris-sheet1.png",
+		"images/particleescapepod.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
