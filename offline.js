@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1596428601,
+	"version": 1596459155,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -137,8 +137,8 @@
 		"images/incubatordatalegleft-sheet0.png",
 		"images/incubatordatalegleft-sheet1.png",
 		"images/incubatoranalysis-sheet0.png",
-		"images/incubatortab-sheet0.png",
-		"images/incubatortabcover-sheet0.png",
+		"images/incubatortab1-sheet0.png",
+		"images/incubatortabcover1-sheet0.png",
 		"images/uibuttongo-sheet0.png",
 		"images/incubatorzap-sheet0.png",
 		"images/particlesteal.png",
@@ -201,6 +201,7 @@
 		"images/bugeggs-sheet1.png",
 		"images/incubatortriangle-sheet0.png",
 		"images/incubatortriangle-sheet1.png",
+		"images/particlesbugs.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
